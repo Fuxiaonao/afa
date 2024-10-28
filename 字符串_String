@@ -1,0 +1,11 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	s := "hel" + "lo,"
+	s += "world!"
+	fmt.Println(s) //输出 “hello, world!”
+}
